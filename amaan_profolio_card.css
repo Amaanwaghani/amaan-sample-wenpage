@@ -1,0 +1,118 @@
+body{
+    background-color: #242526;;
+}
+
+
+
+.img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.img-container{
+    
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.portfolio-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 340px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    background-color: #3a3b3c;
+    border-radius: 20px;
+    position:relative;
+
+    
+    
+}
+.portfolio-card::before{
+    content: "";
+    position:absolute;
+    height:40%;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    border-radius:20px 20px 0px 0px
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 150px
+ 
+}
+.content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+}
+
+
+.name {
+ font-size: 24px;   
+ font-family: "Poppins", sans-serif;
+ font-weight:300 ;
+}
+
+.work{
+    font-size: 15px;   
+    font-family: "Poppins", sans-serif;
+    font-weight:300 ;
+    margin-top: 5px;
+}
+.social-media{
+    display:flex;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    
+}
+.linksf{
+    color:white;
+    font-size: 30px;
+    margin-inline: 7px;
+    transition:  all 0.3s;
+    
+
+}
+.linksf:hover{
+    font-size: 40px;
+    position: relative;
+    color: blue;
+}
+.linksi{
+    color:white;
+    font-size: 30px;
+    margin-inline: 7px;
+    transition:  font-size 0.3s;
+}
+.linksi:hover{
+    font-size: 40px;
+    position: relative;
+    color: pink;
+}
+.linkst{
+    color:white;
+    font-size: 30px;
+    margin-inline: 7px;
+    transition:  all 0.3s;
+}
+.linkst:hover{
+    font-size: 40px;
+    position: relative;
+    color: rgb(59, 185, 227)
+}
